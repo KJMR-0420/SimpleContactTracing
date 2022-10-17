@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/mainpic"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/basicinfo"
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Basic Information"
+           android:textSize="40dp"
+           android:gravity="center"/>
+     <LinearLayout
+         android:layout_margin="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/idnametxt"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Full Name:"
+             android:textSize="20dp"/>
+         <EditText
+             android:id="@+id/idnameedit"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Example: Kurt remolacio"/>
+
+
+     </LinearLayout>
+       <LinearLayout
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/idagetxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Age:"
+               android:textSize="20dp"/>
+           <EditText
+               android:id="@+id/idageedit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Example: 18 yrs old"/>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/idgendertxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Gender:"
+               android:textSize="20dp"/>
+           <EditText
+               android:id="@+id/idgenderedit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Example: Male"/>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/idhometxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Home Address:"
+               android:textSize="20dp"/>
+           <EditText
+               android:id="@+id/idhomeedit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Example: 10 K3rd Street QC"/>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/idcontacttxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Contact Number:"
+               android:textSize="20dp"/>
+           <EditText
+               android:id="@+id/idcontactedit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Example: 09457815781"/>
+
+
+       </LinearLayout>
+       <Button
+           android:id="@+id/procceedbtn"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="Procceed"
+           android:backgroundTint="@color/white"
+           android:textColor="@color/black"/>
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

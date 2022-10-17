@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/data_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data Privacy Act"
+            android:textSize="55dp"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AN ACT PROTECTING INDIVIDUAL PERSONAL INFORMATION IN INFORMATION AND COMMUNICATIONS SYSTEMS IN THE GOVERNMENT AND THE PRIVATE SECTOR, CREATING FOR THIS PURPOSE A NATIONAL PRIVACY COMMISSION, AND FOR OTHER PURPOSES"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SECTION 1. Short Title. – This Act shall be known as the “Data Privacy Act of 2012”."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SEC. 2. Declaration of Policy. – It is the policy of the State to protect the fundamental human right of privacy, of communication while ensuring free flow of information to promote innovation and growth. The State recognizes the vital role of information and communications technology in nation-building and its inherent obligation to ensure that personal information in information and communications systems in the government and in the private sector are secured and protected."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SEC. 3. Definition of Terms. – Whenever used in this Act, the following terms shall have the respective meanings hereafter set forth:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SEC. 4. Scope. – This Act applies to the processing of all types of personal information and to any natural and juridical person involved in personal information processing including those personal information controllers and processors who, although not found or established in the Philippines, use equipment that are located in the Philippines, or those who maintain an office, branch or agency in the Philippines subject to the immediately succeeding paragraph: Provided, That the requirements of Section 5 are complied with."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SEC. 5. Protection Afforded to Journalists and Their Sources. – Nothing in this Act shall be construed as to have amended or repealed the provisions of Republic Act No. 53, which affords the publishers, editors or duly accredited reporters of any newspaper, magazine or periodical of general circulation protection from being compelled to reveal the source of any news report or information appearing in said publication which was related in any confidence to such publisher, editor, or reporter."
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/data_content6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SEC. 6. Extraterritorial Application. – This Act applies to an act done or practice engaged in and outside of the Philippines by an entity"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/databtncanel"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:text="Cancel"/>
+
+            <Button
+                android:id="@+id/databtnaccept"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:text="Accept"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
+</LinearLayout>

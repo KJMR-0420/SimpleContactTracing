@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthInfo"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/city"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Travelhistort"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Travel History "
+                android:textSize="40dp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idtranspotxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type of Transportation:"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idtranspoedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: Jeepney"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idroutetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Route:"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idrouteedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: Quiapo to Lawton"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Placevisit"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Place Visited "
+                android:textSize="40dp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idplacestxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location / Name of Places"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idplacesedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: Jollibee Alabang"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/iddurationtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration of Stay / Hours"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/iddurationedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: 1 hr"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/iddpositiontxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Position:"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idpositionedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Example: Guest / Worker"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Health Question"
+                android:textSize="40dp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idq1txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.Have you worked together or stayed in the
+same close environment of confirmed Covid 19 Positive?
+"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idq1edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Answer"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idq2txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.Have you had contact with anone with fever,cough,cold,
+and sore throat in past 2 week?
+"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idq2edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Answer"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idq3txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Have you travelled outside of the Philippines
+in last 14 days ?"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:id="@+id/idq3edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Answer"/>
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/submitbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Submit Info"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
